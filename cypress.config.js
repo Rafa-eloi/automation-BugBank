@@ -8,9 +8,9 @@ module.exports = defineConfig({
   viewportWidth: 1440,
   viewportHeight: 900,
   defaultCommandTimeout: 10000,
-  pageLoadTimeout: 60000,
+  pageLoadTimeout: 10000,
   requestTimeout: 10000,
-  responseTimeout: 30000,
+  responseTimeout: 10000,
   e2e: {
     baseUrl: "http://localhost:3000",
     specPattern: "cypress/e2e/features/**/*.feature",
